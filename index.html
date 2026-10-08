@@ -1,0 +1,876 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta
+        name="description"
+        content="Caffe nay — premium coffee, freshly roasted beans, and modern café experiences."
+    >
+
+    <title>Caffe nay | Coffee Made Beautiful</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    >
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+    <header class="site-header" id="home">
+        <div class="container header-inner">
+
+            <a href="#home" class="logo" aria-label="Caffe nay home">
+                <span class="logo-icon">
+                    <i class="fa-solid fa-mug-hot"></i>
+                </span>
+                <span class="logo-text">
+                    <strong>Caffe nay</strong>
+                    <small>COFFEE CO.</small>
+                </span>
+            </a>
+
+            <nav class="main-nav" id="mainNav" aria-label="Main navigation">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#menu" class="nav-link">Menu</a>
+                <a href="#featured" class="nav-link">Featured</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+
+            <div class="header-actions">
+                <button class="icon-btn search-toggle" aria-label="Open search">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+
+                <button class="icon-btn" aria-label="Shopping cart">
+                    <i class="fa-solid fa-bag-shopping"></i>
+                    <span class="cart-count">0</span>
+                </button>
+
+                <button
+                    class="menu-toggle"
+                    id="menuToggle"
+                    aria-label="Open navigation"
+                    aria-expanded="false"
+                    aria-controls="mainNav"
+                >
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+
+        </div>
+    </header>
+
+
+    <!-- ================= SEARCH ================= -->
+    <div class="search-panel" id="searchPanel">
+        <div class="container search-inner">
+            <input
+                type="search"
+                id="searchInput"
+                placeholder="Search coffee, drinks, pastries..."
+                aria-label="Search products"
+            >
+            <button id="closeSearch" aria-label="Close search">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+        </div>
+    </div>
+
+
+    <main>
+
+        <!-- ================= HERO ================= -->
+        <section class="hero-section">
+            <div class="container hero-grid">
+
+                <div class="hero-content reveal">
+                    <span class="eyebrow">GOOD COFFEE. GOOD MOMENTS.</span>
+
+                    <h1>
+                        Your daily cup,
+                        <em>made beautiful.</em>
+                    </h1>
+
+                    <p>
+                        Discover carefully roasted coffee, crafted drinks,
+                        and comforting café moments made for slowing down
+                        and enjoying the little things.
+                    </p>
+
+                    <div class="hero-buttons">
+                        <a href="#menu" class="btn btn-primary">
+                            Explore Menu
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+
+                        <a href="#about" class="text-link">
+                            Our story
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </div>
+
+                    <div class="hero-stats">
+                        <div>
+                            <strong>100%</strong>
+                            <span>Premium Beans</span>
+                        </div>
+
+                        <div>
+                            <strong>12+</strong>
+                            <span>Signature Drinks</span>
+                        </div>
+
+                        <div>
+                            <strong>4.9</strong>
+                            <span>Customer Rating</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hero-image-wrap reveal">
+                    <div class="hero-image">
+                        <img
+                            src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=1100&q=85"
+                            alt="Fresh coffee being prepared in a warm modern café"
+                        >
+                    </div>
+
+                    <div class="floating-card">
+                        <span class="floating-icon">
+                            <i class="fa-solid fa-seedling"></i>
+                        </span>
+                        <div>
+                            <strong>Freshly Roasted</strong>
+                            <small>Crafted with care</small>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- ================= BENEFITS ================= -->
+        <section class="benefits-section">
+            <div class="container benefits-grid">
+
+                <article class="benefit-item">
+                    <span class="benefit-icon">
+                        <i class="fa-solid fa-truck-fast"></i>
+                    </span>
+                    <div>
+                        <h3>Free Delivery</h3>
+                        <p>On orders over $50</p>
+                    </div>
+                </article>
+
+                <article class="benefit-item">
+                    <span class="benefit-icon">
+                        <i class="fa-solid fa-fire-flame-curved"></i>
+                    </span>
+                    <div>
+                        <h3>Freshly Roasted</h3>
+                        <p>Premium beans, always fresh</p>
+                    </div>
+                </article>
+
+                <article class="benefit-item">
+                    <span class="benefit-icon">
+                        <i class="fa-solid fa-shield-halved"></i>
+                    </span>
+                    <div>
+                        <h3>Secure Payment</h3>
+                        <p>Safe & trusted checkout</p>
+                    </div>
+                </article>
+
+                <article class="benefit-item">
+                    <span class="benefit-icon">
+                        <i class="fa-solid fa-headset"></i>
+                    </span>
+                    <div>
+                        <h3>Friendly Support</h3>
+                        <p>We're here to help</p>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+
+        <!-- ================= FEATURED COLLECTIONS ================= -->
+        <section class="collections-section">
+            <div class="container collections-grid">
+
+                <article class="collection-card collection-espresso reveal">
+                    <div class="collection-content">
+                        <span>Rich & Bold</span>
+                        <h2>Espresso<br>Collection</h2>
+                        <a href="#menu" class="small-btn">Shop Now</a>
+                    </div>
+
+                    <img
+                        src="https://images.unsplash.com/photo-1510707577719-ae7c14805e7a?auto=format&fit=crop&w=800&q=85"
+                        alt="Rich espresso in a ceramic cup"
+                    >
+                </article>
+
+                <article class="collection-card collection-coldbrew reveal">
+                    <div class="collection-content">
+                        <span>Cool & Refreshing</span>
+                        <h2>Cold Brew<br>Collection</h2>
+                        <a href="#menu" class="small-btn">Shop Now</a>
+                    </div>
+
+                    <img
+                        src="https://images.unsplash.com/photo-1517701604599-bb29b565090c?auto=format&fit=crop&w=800&q=85"
+                        alt="Iced cold brew coffee"
+                    >
+                </article>
+
+            </div>
+        </section>
+
+
+        <!-- ================= FEATURED PRODUCTS ================= -->
+        <section class="featured-section section-padding" id="featured">
+            <div class="container">
+
+                <div class="section-heading">
+                    <div>
+                        <span class="eyebrow">OUR FAVORITES</span>
+                        <h2>Best Sellers</h2>
+                    </div>
+
+                    <a href="#menu" class="view-all">
+                        View All
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <div class="product-grid">
+
+                    <article class="product-card reveal">
+                        <div class="product-image">
+                            <span class="product-badge">Popular</span>
+                            <button class="wishlist" aria-label="Add Premium Arabica to wishlist">
+                                <i class="fa-regular fa-heart"></i>
+                            </button>
+
+                            <img
+                                src="https://images.unsplash.com/photo-1447933601403-0c6688de566e?auto=format&fit=crop&w=700&q=85"
+                                alt="Premium Arabica coffee beans"
+                            >
+                        </div>
+
+                        <div class="product-info">
+                            <span class="product-category">COFFEE BEANS</span>
+                            <h3>Premium Arabica</h3>
+                            <p>Silky, balanced with subtle caramel notes.</p>
+
+                            <div class="product-bottom">
+                                <strong>$14.99</strong>
+                                <button class="add-cart" aria-label="Add Premium Arabica to cart">
+                                    <i class="fa-solid fa-plus"></i>
+                                </button>
+                            </div>
+
+                            <div class="rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <span>(245)</span>
+                            </div>
+                        </div>
+                    </article>
+
+
+                    <article class="product-card reveal">
+                        <div class="product-image">
+                            <button class="wishlist" aria-label="Add Classic House Blend to wishlist">
+                                <i class="fa-regular fa-heart"></i>
+                            </button>
+
+                            <img
+                                src="https://images.unsplash.com/photo-1559525839-b184a4d698c7?auto=format&fit=crop&w=700&q=85"
+                                alt="Classic House Blend coffee"
+                            >
+                        </div>
+
+                        <div class="product-info">
+                            <span class="product-category">COFFEE BEANS</span>
+                            <h3>Classic House Blend</h3>
+                            <p>Comforting, smooth and naturally sweet.</p>
+
+                            <div class="product-bottom">
+                                <strong>$13.99</strong>
+                                <button class="add-cart" aria-label="Add Classic House Blend to cart">
+                                    <i class="fa-solid fa-plus"></i>
+                                </button>
+                            </div>
+
+                            <div class="rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <span>(189)</span>
+                            </div>
+                        </div>
+                    </article>
+
+
+                    <article class="product-card reveal">
+                        <div class="product-image">
+                            <span class="product-badge dark">New</span>
+                            <button class="wishlist" aria-label="Add Dark Roast Espresso to wishlist">
+                                <i class="fa-regular fa-heart"></i>
+                            </button>
+
+                            <img
+                                src="https://images.unsplash.com/photo-1610889556528-9a770e32642f?auto=format&fit=crop&w=700&q=85"
+                                alt="Dark roast espresso coffee"
+                            >
+                        </div>
+
+                        <div class="product-info">
+                            <span class="product-category">ESPRESSO</span>
+                            <h3>Dark Roast Espresso</h3>
+                            <p>Bold body with rich chocolate undertones.</p>
+
+                            <div class="product-bottom">
+                                <strong>$15.99</strong>
+                                <button class="add-cart" aria-label="Add Dark Roast Espresso to cart">
+                                    <i class="fa-solid fa-plus"></i>
+                                </button>
+                            </div>
+
+                            <div class="rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <span>(312)</span>
+                            </div>
+                        </div>
+                    </article>
+
+
+                    <article class="product-card reveal">
+                        <div class="product-image">
+                            <button class="wishlist" aria-label="Add Hazelnut Coffee to wishlist">
+                                <i class="fa-regular fa-heart"></i>
+                            </button>
+
+                            <img
+                                src="https://images.unsplash.com/photo-1498804103079-a6351b050096?auto=format&fit=crop&w=700&q=85"
+                                alt="Hazelnut flavored coffee"
+                            >
+                        </div>
+
+                        <div class="product-info">
+                            <span class="product-category">FLAVORED COFFEE</span>
+                            <h3>Hazelnut Coffee</h3>
+                            <p>Warm hazelnut aroma with a creamy finish.</p>
+
+                            <div class="product-bottom">
+                                <strong>$12.99</strong>
+                                <button class="add-cart" aria-label="Add Hazelnut Coffee to cart">
+                                    <i class="fa-solid fa-plus"></i>
+                                </button>
+                            </div>
+
+                            <div class="rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <span>(156)</span>
+                            </div>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+
+        <!-- ================= PROMO ================= -->
+        <section class="promo-section">
+            <div class="container">
+                <div class="promo-banner reveal">
+
+                    <div class="promo-content">
+                        <span>LIMITED TIME</span>
+                        <h2>Make summer<br><em>taste better.</em></h2>
+                        <p>Enjoy up to 30% off selected coffee favorites.</p>
+
+                        <a href="#menu" class="btn btn-light">
+                            Shop Collection
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </div>
+
+                    <div class="promo-image">
+                        <img
+                            src="https://images.unsplash.com/photo-1497636577773-f1231844b336?auto=format&fit=crop&w=1000&q=85"
+                            alt="Latte surrounded by fresh coffee beans"
+                        >
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+        <!-- ================= MENU ================= -->
+        <section class="menu-section section-padding" id="menu">
+            <div class="container">
+
+                <div class="section-heading centered">
+                    <span class="eyebrow">CRAFTED FOR YOU</span>
+                    <h2>Explore Our Menu</h2>
+                    <p>
+                        From classic espresso drinks to refreshing cold brews,
+                        there is always something delicious waiting for you.
+                    </p>
+                </div>
+
+                <div class="category-tabs" role="tablist">
+                    <button class="category-btn active" data-category="all">All</button>
+                    <button class="category-btn" data-category="coffee">Coffee</button>
+                    <button class="category-btn" data-category="cold">Cold Drinks</button>
+                    <button class="category-btn" data-category="tea">Tea</button>
+                    <button class="category-btn" data-category="food">Pastries</button>
+                </div>
+
+                <div class="menu-grid">
+
+                    <article class="menu-card" data-category="coffee">
+                        <div class="menu-image">
+                            <img
+                                src="https://images.unsplash.com/photo-1512568400610-62da28bc8a13?auto=format&fit=crop&w=700&q=85"
+                                alt="Classic cappuccino"
+                            >
+                        </div>
+                        <div class="menu-info">
+                            <div>
+                                <h3>Cappuccino</h3>
+                                <p>Espresso, steamed milk and silky foam.</p>
+                            </div>
+                            <strong>$4.50</strong>
+                        </div>
+                    </article>
+
+
+                    <article class="menu-card" data-category="coffee">
+                        <div class="menu-image">
+                            <img
+                                src="https://images.unsplash.com/photo-1497515114629-f71d768fd07c?auto=format&fit=crop&w=700&q=85"
+                                alt="Creamy latte"
+                            >
+                        </div>
+                        <div class="menu-info">
+                            <div>
+                                <h3>Caffeiine Latte</h3>
+                                <p>Rich espresso balanced with velvety milk.</p>
+                            </div>
+                            <strong>$4.90</strong>
+                        </div>
+                    </article>
+
+
+                    <article class="menu-card" data-category="coffee">
+                        <div class="menu-image">
+                            <img
+                                src="https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=700&q=85"
+                                alt="Espresso coffee"
+                            >
+                        </div>
+                        <div class="menu-info">
+                            <div>
+                                <h3>Double Espresso</h3>
+                                <p>Bold, concentrated and beautifully balanced.</p>
+                            </div>
+                            <strong>$3.80</strong>
+                        </div>
+                    </article>
+
+
+                    <article class="menu-card" data-category="cold">
+                        <div class="menu-image">
+                            <img
+                                src="https://images.unsplash.com/photo-1517701604599-bb29b565090c?auto=format&fit=crop&w=700&q=85"
+                                alt="Iced coffee"
+                            >
+                        </div>
+                        <div class="menu-info">
+                            <div>
+                                <h3>Iced Americano</h3>
+                                <p>Espresso, cold water and plenty of ice.</p>
+                            </div>
+                            <strong>$4.25</strong>
+                        </div>
+                    </article>
+
+
+                    <article class="menu-card" data-category="cold">
+                        <div class="menu-image">
+                            <img
+                                src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?auto=format&fit=crop&w=700&q=85"
+                                alt="Iced latte"
+                            >
+                        </div>
+                        <div class="menu-info">
+                            <div>
+                                <h3>Vanilla Iced Latte</h3>
+                                <p>Cold espresso, milk and house vanilla.</p>
+                            </div>
+                            <strong>$5.40</strong>
+                        </div>
+                    </article>
+
+
+                    <article class="menu-card" data-category="cold">
+                        <div class="menu-image">
+                            <img
+                                src="https://images.unsplash.com/photo-1517959105821-eaf2591984ca?auto=format&fit=crop&w=700&q=85"
+                                alt="Cold brew coffee"
+                            >
+                        </div>
+                        <div class="menu-info">
+                            <div>
+                                <h3>Signature Cold Brew</h3>
+                                <p>Slow-steeped for a smooth, naturally sweet finish.</p>
+                            </div>
+                            <strong>$5.20</strong>
+                        </div>
+                    </article>
+
+
+                    <article class="menu-card" data-category="tea">
+                        <div class="menu-image">
+                            <img
+                                src="https://images.unsplash.com/photo-1544787219-7f47ccb76574?auto=format&fit=crop&w=700&q=85"
+                                alt="Fresh green tea"
+                            >
+                        </div>
+                        <div class="menu-info">
+                            <div>
+                                <h3>Jasmine Green Tea</h3>
+                                <p>Floral, delicate and refreshingly light.</p>
+                            </div>
+                            <strong>$3.90</strong>
+                        </div>
+                    </article>
+
+
+                    <article class="menu-card" data-category="food">
+                        <div class="menu-image">
+                            <img
+                                src="https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=700&q=85"
+                                alt="Fresh croissant"
+                            >
+                        </div>
+                        <div class="menu-info">
+                            <div>
+                                <h3>Butter Croissant</h3>
+                                <p>Flaky, golden and baked fresh every morning.</p>
+                            </div>
+                            <strong>$3.50</strong>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+
+        <!-- ================= ABOUT ================= -->
+        <section class="about-section section-padding" id="about">
+            <div class="container about-grid">
+
+                <div class="about-images reveal">
+                    <div class="about-main-image">
+                        <img
+                            src="https://images.unsplash.com/photo-1445116572660-236099ec97a0?auto=format&fit=crop&w=1000&q=85"
+                            alt="Warm and welcoming Caffeiine café interior"
+                        >
+                    </div>
+
+                    <div class="about-small-image">
+                        <img
+                            src="https://images.unsplash.com/photo-1498804103079-a6351b050096?auto=format&fit=crop&w=600&q=85"
+                            alt="Freshly brewed coffee"
+                        >
+                    </div>
+
+                    <div class="experience-badge">
+                        <strong>10+</strong>
+                        <span>Years of<br>coffee craft</span>
+                    </div>
+                </div>
+
+                <div class="about-content reveal">
+                    <span class="eyebrow">OUR STORY</span>
+
+                    <h2>
+                        Coffee is more than
+                        <em>a drink.</em>
+                    </h2>
+
+                    <p>
+                        Caffeiine started with a simple idea: create a café
+                        where exceptional coffee and everyday comfort come
+                        together.
+                    </p>
+
+                    <p>
+                        We carefully source our beans, roast them in small
+                        batches, and craft every drink with patience and
+                        attention to detail.
+                    </p>
+
+                    <div class="about-features">
+                        <div>
+                            <i class="fa-solid fa-leaf"></i>
+                            <div>
+                                <h3>Thoughtfully Sourced</h3>
+                                <p>Responsible beans from trusted farms.</p>
+                            </div>
+                        </div>
+
+                        <div>
+                            <i class="fa-solid fa-mug-hot"></i>
+                            <div>
+                                <h3>Crafted Fresh</h3>
+                                <p>Roasted and prepared with care.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <a href="#contact" class="btn btn-primary">
+                        Visit Caffeiine
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- ================= INSTAGRAM ================= -->
+        <section class="social-section">
+            <div class="container">
+
+                <div class="section-heading centered">
+                    <span class="eyebrow">FOLLOW ALONG</span>
+                    <h2>@caffeiine.coffee</h2>
+                    <p>Good coffee, beautiful moments, shared daily.</p>
+                </div>
+
+                <div class="social-grid">
+                    <a href="#" class="social-image">
+                        <img
+                            src="https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=600&q=85"
+                            alt="Caffeiine coffee moment"
+                        >
+                        <span><i class="fa-brands fa-instagram"></i></span>
+                    </a>
+
+                    <a href="#" class="social-image">
+                        <img
+                            src="https://images.unsplash.com/photo-1511920170033-f8396924c348?auto=format&fit=crop&w=600&q=85"
+                            alt="Coffee and café table"
+                        >
+                        <span><i class="fa-brands fa-instagram"></i></span>
+                    </a>
+
+                    <a href="#" class="social-image">
+                        <img
+                            src="https://images.unsplash.com/photo-1511081692775-05d0f180a065?auto=format&fit=crop&w=600&q=85"
+                            alt="Latte art"
+                        >
+                        <span><i class="fa-brands fa-instagram"></i></span>
+                    </a>
+
+                    <a href="#" class="social-image">
+                        <img
+                            src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=600&q=85"
+                            alt="Freshly brewed coffee"
+                        >
+                        <span><i class="fa-brands fa-instagram"></i></span>
+                    </a>
+
+                    <a href="#" class="social-image">
+                        <img
+                            src="https://images.unsplash.com/photo-1461988091159-192b6df7054f?auto=format&fit=crop&w=600&q=85"
+                            alt="Coffee beans and cup"
+                        >
+                        <span><i class="fa-brands fa-instagram"></i></span>
+                    </a>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- ================= NEWSLETTER ================= -->
+        <section class="newsletter-section">
+            <div class="container newsletter-inner">
+
+                <div>
+                    <span class="eyebrow">STAY IN THE LOOP</span>
+                    <h2>Join the Caffeiine community.</h2>
+                    <p>
+                        Get new drink drops, exclusive offers and coffee tips.
+                    </p>
+                </div>
+
+                <form class="newsletter-form" id="newsletterForm">
+                    <label for="email" class="sr-only">Email address</label>
+                    <input
+                        type="email"
+                        id="email"
+                        placeholder="Enter your email address"
+                        required
+                    >
+                    <button type="submit" class="btn btn-primary">
+                        Subscribe
+                    </button>
+                </form>
+
+            </div>
+        </section>
+
+    </main>
+
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="site-footer" id="contact">
+        <div class="container">
+
+            <div class="footer-main">
+
+                <div class="footer-brand">
+                    <a href="#home" class="logo">
+                        <span class="logo-icon">
+                            <i class="fa-solid fa-mug-hot"></i>
+                        </span>
+
+                        <span class="logo-text">
+                            <strong>Caffe nay</strong>
+                            <small>COFFEE CO.</small>
+                        </span>
+                    </a>
+
+                    <p>
+                        Thoughtfully roasted coffee, beautifully crafted drinks,
+                        and warm moments worth sharing.
+                    </p>
+
+                    <div class="social-links">
+                        <a href="#" aria-label="Instagram">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="#" aria-label="Facebook">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                        <a href="#" aria-label="TikTok">
+                            <i class="fa-brands fa-tiktok"></i>
+                        </a>
+                        <a href="#" aria-label="Pinterest">
+                            <i class="fa-brands fa-pinterest-p"></i>
+                        </a>
+                    </div>
+                </div>
+
+
+                <div class="footer-column">
+                    <h3>Explore</h3>
+                    <a href="#home">Home</a>
+                    <a href="#menu">Menu</a>
+                    <a href="#featured">Featured</a>
+                    <a href="#about">About Us</a>
+                </div>
+
+
+                <div class="footer-column">
+                    <h3>Information</h3>
+                    <a href="#">Our Story</a>
+                    <a href="#">Shipping</a>
+                    <a href="#">FAQ</a>
+                    <a href="#">Privacy Policy</a>
+                </div>
+
+
+                <div class="footer-column contact-column">
+                    <h3>Visit Us</h3>
+                    <p>
+                        <i class="fa-solid fa-location-dot"></i>
+                        25 Coffee Lane, Downtown
+                    </p>
+
+                    <p>
+                        <i class="fa-solid fa-phone"></i>
+                        +1 (555) 012-3456
+                    </p>
+
+                    <p>
+                        <i class="fa-solid fa-envelope"></i>
+                        hello@caffeiine.com
+                    </p>
+
+                    <p>
+                        <i class="fa-regular fa-clock"></i>
+                        Mon – Sun: 7:00 AM – 10:00 PM
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; <span id="currentYear"></span> Caffeiine Coffee Co. All rights reserved.</p>
+
+                <div class="footer-bottom-links">
+                    <a href="#">Terms</a>
+                    <a href="#">Privacy</a>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+
+    <!-- Toast notification -->
+    <div class="toast" id="toast" role="status" aria-live="polite">
+        <i class="fa-solid fa-check"></i>
+        <span>Added to your bag.</span>
+    </div>
+
+
+    <script src="js/script.js"></script>
+</body>
+</html>
